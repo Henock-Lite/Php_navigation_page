@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <title>Mini SPA - Toutes vues dans index.html</title>
-    <link rel="stylesheet" href="./style/style.css">
-   
-  </head>
-  <body>
-   
+    <title>Mini SPA</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
     <nav>
-      <a href="#home" data-page="home">Accueil</a> |
-      <a href="#about" data-page="about">À propos</a> |
-      <a href="#contact" data-page="contact">Contact</a>
+        <a href="#home" data-page="home" class="actife">Accueil</a> |
+        <a href="#about" data-page="about">À propos</a> |
+        <a href="#contact" data-page="contact">Contact</a>
     </nav>
 
-    <!-- Les vues -->
     <div id="views">
-      <div id="home" class="view active">
-        <h1>Bienvenue sur l'accueil</h1>
-        <p>Page d'accueil.</p>
-      </div>
-
-      <div id="about" class="view">
-        <h1>À propos</h1>
-        <p>On adore coder des SPAs !</p>
-      </div>
-
-      <div id="contact" class="view">
-        <h1>Contact</h1>
-        <p>Formulaire de contact ici.</p>
-      </div>
+        <div id="home" class="view active">
+            <h1>Bienvenue sur l'accueil</h1>
+            <p>Page d'accueil.</p>
+        </div>
+        <div id="about" class="view">
+            <h1>À propos</h1>
+            <p>On adore coder des SPAs !</p>
+        </div>
+        
+        
+        <div id="contact" class="view">
+            <h1>Contact</h1>
+            <p>Formulaire de contact ici.</p>
+        </div>
     </div>
 
     <script src="app.js"></script>
-  </body>
-</html>
+</body>
